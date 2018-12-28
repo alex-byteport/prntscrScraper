@@ -67,7 +67,7 @@ while (tempVar2 <= threadAmount):
 		thread.start_new_thread(scrapePictures, ())
 		tempVar2 += 1
 	except:
-		print "Error initializing thread...."
+		print("Error initializing thread....") 
 
 #Make threads never stop
 while (True):
