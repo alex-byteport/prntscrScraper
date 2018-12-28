@@ -31,10 +31,10 @@ def scrapePictures():
 				# original print file. Currently in maintance mode.
 			#print str(file) + " file"
 			if file in noneWorking:
-				print "[-] Invalid: " + picture + picture2
+				print("[-] Invalid: " + picture + picture2) 
 				os.remove(name + ".jpg")
 			else: 
-				print "[+] Valid: " + printsc
+				print("[+] Valid: " + printsc) 
 			#temp += 1
 		if amount == 5:
 			N = 5
@@ -53,10 +53,10 @@ def scrapePictures():
 			#print printsc
 			#print str(file) + " file"
 			if file in noneWorking:
-				print "[-] Invalid: " + picture
+				print("[-] Invalid: " + picture) 
 				os.remove(name + ".jpg")
 			else: 
-				print "[+] Valid: " + printsc
+				print("[+] Valid: " + printsc) 
 			#temp += 1
 
 tempVar2 = 1
